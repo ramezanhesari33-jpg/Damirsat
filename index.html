@@ -1,0 +1,12 @@
+# iron_scrap_manager.py
+
+from datetime import datetime
+
+class IronScrap:
+    def __init__(self, scrap_type, weight_kg):
+        self.scrap_type = scrap_type
+        self.weight_kg = weight_kg
+        self.date_added = datetime.now()
+
+    def __str__(self):
+        return f"{self.scrap_type} - {self.weight
