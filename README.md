@@ -77,3 +77,48 @@ www.kanfolad.ir
 - **API Documentation**: Swagger
 
 ## 🚀 نصب و راه‌اندازی
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت‌نام Damirsat</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      padding: 30px;
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #d32f2f;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h2>ثبت‌نام در Damirsat</h2>
+    <input type="text" placeholder="نام کامل" required>
+    <input type="email" placeholder="ایمیل" required>
+    <input type="tel" placeholder="شماره تماس" required>
+    <button type="submit">ثبت‌نام</button>
+  </form>
+</body>
+</html>
